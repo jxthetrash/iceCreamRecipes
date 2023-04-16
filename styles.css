@@ -22,12 +22,11 @@ body {
     font-family: 'Moo Lah Lah', cursive;
   }
   
-  .container{
-    background-color: #ffffff31
-  }
-
-  #title{
-    padding: 1% 0%;
+  #title-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding-top: 3%;
   }
 
   img{
@@ -35,9 +34,17 @@ body {
     padding-bottom: 5%;
     padding-top: 1%;
   }
-  button{
-    background-color: #ffffffcb;
+  .btn-outline-secondary{
+    background-color: hsla(300, 100%, 90%, 0.212);
   }
+  .instructions{
+    padding-bottom: 1%;
+  }
+  #foot{
+    border-top: solid 1px #afafaf;
+    margin-bottom: 0%;
+  }
+
   @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -49,12 +56,11 @@ body {
         background-position: 0% 50%;
     }
   }
-  
-  @media screen and (min-width:700px){
-    .container-fluid{
-      padding: 10%;
-      padding-top: 3%;
-    }
+
+  @media screen and (min-width: 768px) {
+    .container{
+      background-color: #ffffff31
+    }  
   }
   
   @media screen and (min-width: 992px) {
@@ -66,5 +72,11 @@ body {
   @media print{
     img{
       width: 30%;
+    }
+    .no-print{
+      display: none;
+    }
+    #foot.no-print{
+      display: block;
     }
   }

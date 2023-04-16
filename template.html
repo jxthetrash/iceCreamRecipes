@@ -36,7 +36,10 @@
         <h1 class="d-flex justify-content-center border-bottom ">THE ICE CREAM STORE</h1>
       </header>
     <div class="container">
-        <h2 id="title">Strawberry Gelato</h2>
+      <div id="title-box">
+        <h2 >Strawberry Gelato</h2>
+        <button type="button" class="btn btn-outline-secondary no-print" onclick="window.print()">Print Recipe</button>
+      </div>
         <img src="images/gelato.jpg" alt="straberry gelato" class="mx-auto d-block"/>
         <div class="content">
           <div class="Ingredients">
@@ -58,12 +61,11 @@
             </ol>
 
           </div>
-            
-            <P>
-                
-                
-            </P>
         </div>
+        <footer class="no-print py-3 my-4" id="foot">
+          <i class="fa-solid fa-ice-cream d-inline text-muted"></i>
+          <a href="https://www.askchefdennis.com/strawberry-gelato/" class="d-inline text-muted lh-1">Original Recipe</a><p class="d-inline text-muted"> by Dennis Littley</p>
+        </footer>    
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
