@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: "Open sans", sans-serif;
@@ -21,16 +22,22 @@ body {
     font-family: 'Moo Lah Lah', cursive;
   }
   
-#title{
-  padding: 1% 0%;
-}
+  .container{
+    background-color: #ffffff31
+  }
+
+  #title{
+    padding: 1% 0%;
+  }
 
   img{
     width: 100%;
     padding-bottom: 5%;
     padding-top: 1%;
   }
-
+  button{
+    background-color: #ffffffcb;
+  }
   @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -56,6 +63,8 @@ body {
     }
   }
   
-  @media screen and (min-width:1000px) {
-  
+  @media print{
+    img{
+      width: 30%;
+    }
   }
