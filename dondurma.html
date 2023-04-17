@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Ice Cream Store"
+      content="Gelato Recipe"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Gelato Recipe</title>
+  </head>
+  <body>
+    <a href="https://jxthetrash.github.io/iceCream/" class="text-decoration-none text-reset">
+      <header class="App-header sticky-top" id="header">
+        <h1 class="d-flex justify-content-center border-bottom ">THE ICE CREAM STORE</h1>
+      </header>
+    </a>
+    <div class="container">
+      <div id="title-box">
+        <h2 >Strawberry Gelato</h2>
+        <button type="button" class="btn btn-outline-secondary no-print" onclick="window.print()">Print Recipe</button>
+      </div>
+        <img src="images/gelato.jpg" alt="straberry gelato" class="mx-auto d-block"/>
+        <div class="content">
+          <div class="Ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>1 liter milk</li>
+              <li>1 and ½ cups sugar</li>
+              <li> 1 tablespoon salep powder</li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+              <li>Combine milk, sugar and salep powder in a large saucepan. Whisk well with a hand whisk. </li>
+              <li>Put it over medium heat and cook it until sugar dissolves, stirring continuously. </li>
+              <li>Reduce the heat to the lowest and keep cooking until it gets thicker in consistency. This might take 15-20 minutes.</li>
+              <li>Transfer it into a freezer-safe container. Let it cool completely.</li>
+              <li>Cover it with plastic wrap and put it into the freezer. </li>
+              <li>Remove it from the freezer after 30 minutes and mix with a fork for 2-3 minutes. Make sure to fold in the icy bits on the edges of the container. Put it back into the freezer. </li>
+              <li>Repeat this 5 or 6 times every 30 minutes. You will see how it gets stretchy in the end and it will get really hard to mix. This shows that your ice cream is almost ready. </li>
+              <li>Keep it in the freezer until serving time, at least for 5 hours. </li>
+              <li>Take it out 15 minutes before serving. Then you can easily scoop it and serve on the scone or on your desserts.</li>
+            </ol>
+
+          </div>
+        </div>
+        <footer class="no-print py-3 my-4" id="foot">
+          <i class="fa-solid fa-ice-cream d-inline text-muted"></i>
+          <a href="https://www.askchefdennis.com/strawberry-gelato/" class="d-inline text-muted lh-1">Original Recipe</a><p class="d-inline text-muted"> by Dennis Littley</p>
+        </footer>    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
