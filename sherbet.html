@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Ice Cream Store"
+      content="Gelato Recipe"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Gelato Recipe</title>
+  </head>
+  <body>
+    <a href="https://jxthetrash.github.io/iceCream/" class="text-decoration-none text-reset">
+      <header class="App-header sticky-top" id="header">
+        <h1 class="d-flex justify-content-center border-bottom ">THE ICE CREAM STORE</h1>
+      </header>
+    </a>
+    <div class="container">
+      <div id="title-box">
+        <h2 >Strawberry Gelato</h2>
+        <button type="button" class="btn btn-outline-secondary no-print" onclick="window.print()">Print Recipe</button>
+      </div>
+        <img src="images/gelato.jpg" alt="straberry gelato" class="mx-auto d-block"/>
+        <div class="content">
+          <div class="Ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>2 cups heavy whipping cream, make sure it is very cold</li>
+              <li>1 (14-ounce) can sweetened condensed milk</li>
+              <li>2 tablespoons raspberry gelatin dessert mix, such as Jell-O</li>
+              <li>2 tablespoons orange gelatin dessert mix</li>
+              <li>2 tablespoons lime gelatin dessert mix</li>
+            </ul>
+          </div>
+          <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+              <li>Place the heavy whipping cream and the sweetened condensed milk in the bowl of an electric stand mixer fitted with the whisk attachment. </li>
+              <li>Beat on low speed for 30 seconds to a minute, just until the cream starts to thicken slightly (this will help prevent the cream from splashing out of the bowl). Then turn the speed up to high and beat just until stiff peaks form (when you pull the whisk out of the cream, it should form peaks that stand up straight and don't droop over). This should take about 2 to 3 minutes.</li>
+              <li>Divide the whipped cream mixture evenly among three bowls. </li>
+              <li>Add the raspberry gelatin to first bowl, the orange gelatin to the second bowl, and the lime gelatin to the third bowl. </li>
+              <li>One bowl at a time, gently fold the gelatin into the whipped cream mixture until it is thoroughly combined and one solid color (by gently folding, you will keep as much air as possible in the whipped cream).</li>
+              <li>In a 1½-quart (6-cup) freezer-safe container with a lid (I use a glass 9×5-inch loaf pan that came with a lid), randomly place spoonfuls of each flavor of the cream mixture (you will have several layers), scattering them so that you don't have too much of any one flavor in the same spot. </li>
+              <li>Use a butter knife to gently swirl the flavors. </li>
+              <li>Cover the sherbet with plastic wrap and then put the lid on the container. Freeze for at least 8 hours or until firm.</li>
+            </ol>
+
+          </div>
+        </div>
+        <footer class="no-print py-3 my-4" id="foot">
+          <i class="fa-solid fa-ice-cream d-inline text-muted"></i>
+          <a href="https://www.askchefdennis.com/strawberry-gelato/" class="d-inline text-muted lh-1">Original Recipe</a><p class="d-inline text-muted"> by Dennis Littley</p>
+        </footer>    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
